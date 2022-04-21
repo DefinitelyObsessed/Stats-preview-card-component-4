@@ -1,0 +1,108 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Inter", sans-serif;
+}
+
+
+/* Parent Block */
+.parent-block {
+  position: absolute;
+  top : 50%;
+  left: 50% ;
+  transform: translate(-50%, -50%);
+  background-color: hsl(244, 38%, 16%);
+  width: 60rem;
+}
+
+/* Image Block  */
+.pink-image {
+  background-color: hsl(277, 64%, 70%);
+  position: absolute;
+  top : 50%;
+  left: 50% ;
+  transform: translate(0, -50%);
+  width: 30rem;
+  height: 24.5rem;
+}
+
+.image {
+  width: 30rem;
+  float: right;
+  margin-left: 6%;
+   mix-blend-mode: multiply;
+}
+
+
+
+/* Text Parent Block */
+.text-parent-block {
+  text-align: left;
+  padding: 5% 0 1% 5% ;
+}
+
+p {
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding-bottom: 4%;
+}
+
+
+/* Text Part */
+
+h2 {
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 4%;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.text-part-P {
+  font-size: 1rem;
+}
+
+
+/* Number Part  */
+h4 {
+  font-family: "Lexend Deca";
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+
+/* Mobile Responsive Section */
+
+@media (max-width: 950px) {
+
+  .parent-block {
+    position: absolute;
+    top: 60%;
+    width: 18rem;
+  }
+
+    .pink-image {
+      position: absolute;
+      top: 16%;
+      left: 0.15%;
+      width: 18rem;
+      height: 15rem;
+    }
+    .image {
+      width: 18rem ;
+      clear: left;
+      margin-bottom: 10%;
+    }
+
+    .text-parent-block {
+         text-align: center;
+         padding: 4% 8% ;
+    }
+
+    .text-part-P  {
+      font-size: 14px;
+    }
+
+}
